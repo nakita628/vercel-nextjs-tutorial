@@ -6,14 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deps": "rm -rf node_modules && package-lock.json && npm install",
+    "deps": "rm -rf node_modules && rm -rf package-lock.json && npm install",
     "check": "biome check --write ./"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.6",
     "@types/node": "^25.3.5",
-    "@types/react": "^19.2.14",
-    "typescript": "5.9.3"
+    "@types/react": "^19.2.14"
   },
   "dependencies": {
     "next": "^16.1.6",
